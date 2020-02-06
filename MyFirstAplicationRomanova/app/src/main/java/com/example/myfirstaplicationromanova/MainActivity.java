@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity  {
 
     @SuppressLint("SetTextI18n")
     @Override
+    private Button button;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 Button btn = (Button) findViewById(R.id.firstProj);
                 btn.setText("FirstApp");
+                button= findViewById(R.id.firstProj);
+                button.setText("");
+                button.setOnClickListener(new.ViewOnClickListener());
             }
         });
     }

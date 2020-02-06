@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Button-counter-Romanova</string>
+    <string name="button_1">Increment the counter</string>
+    <string name="button_2">Decrement the counter</string>
+    <string name="button_3">Reset the counter</string>
+    <string name="counter">0</string>
+</resources>
